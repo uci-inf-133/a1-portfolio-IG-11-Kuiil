@@ -1,0 +1,156 @@
+:root {
+  --bg: #0b1220;
+  --card: #111a2e;
+  --text: #e9eefc;
+  --muted: #b8c3df;
+  --accent: #6ea8fe;
+  --border: rgba(255, 255, 255, 0.10);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, var(--bg), #070b14);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.site-header,
+.site-footer {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  letter-spacing: 0.2px;
+}
+
+.nav-link {
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+}
+
+.nav-link.active {
+  background: rgba(110, 168, 254, 0.18);
+}
+
+.card-soft {
+  background: rgba(17, 26, 46, 0.75);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.profile-img {
+  max-width: 220px;
+  border: 3px solid rgba(255, 255, 255, 0.14);
+}
+
+.lead {
+  color: var(--muted);
+}
+
+.text-muted {
+  color: var(--muted) !important;
+}
+
+/* Accessibility: visible focus */
+:focus-visible {
+  outline: 3px solid rgba(110, 168, 254, 0.7);
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  left: 0.75rem;
+  top: 0.75rem;
+}
+
+/* Table polish */
+table caption {
+  color: var(--text);
+}
+
+.table {
+  color: var(--text);
+}
+
+.table thead th {
+  color: var(--text);
+}
+
+.table td,
+.table th {
+  border-color: var(--border);
+}
+
+/* Make Bootstrap form controls match theme */
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  border-color: rgba(110, 168, 254, 0.55);
+  box-shadow: none;
+}
+
+legend {
+  color: var(--text);
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .profile-img {
+    max-width: 160px;
+  }
+
+  .nav-link {
+    padding: 0.6rem 0.9rem;
+  }
+}
