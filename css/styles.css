@@ -70,7 +70,9 @@ a:focus {
 }
 
 .profile-img {
-  max-width: 220px;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
   border: 3px solid rgba(255, 255, 255, 0.14);
 }
 
