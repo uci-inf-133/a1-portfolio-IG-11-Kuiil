@@ -154,3 +154,19 @@ legend {
     padding: 0.6rem 0.9rem;
   }
 }
+
+/* Navbar text color fix */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--text) !important;
+}
+
+/* Active nav pill */
+.nav-link.active {
+  color: var(--text) !important;
+}
+
