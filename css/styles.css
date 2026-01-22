@@ -156,6 +156,12 @@ table caption {
   background: rgba(255, 255, 255, 0.04);
 }
 
+/* Force table text to be light (override Bootstrap) */
+.table,
+.table * {
+  color: var(--text) !important;
+}
+
 /* Make Bootstrap form controls match theme */
 .form-control,
 .form-select {
