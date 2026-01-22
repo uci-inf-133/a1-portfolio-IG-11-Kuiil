@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Shaurya Singh
+EMAIL: shaurys4@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Shaurya Singh">
+  <meta name="description" content="Contact Shaurya Singh.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Contact | Shaurya Singh</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header border-bottom">
+    <nav class="navbar navbar-expand-lg container py-3" aria-label="Primary navigation">
+      <a class="navbar-brand fw-bold" href="index.html">Shaurya Singh</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+        aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container py-5">
+    <h1 class="fw-800 mb-3">Contact</h1>
+    <p class="text-muted mb-4">
+      The form below is for the assignment and accessibility practice. It does not submit to a server.
+    </p>
+
+    <section class="row g-4">
+      <div class="col-12 col-lg-6">
+        <article class="card-soft p-4">
+          <h2 class="h4 fw-800 mb-3">Email and links</h2>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+              <i class="fa-solid fa-envelope me-2" aria-hidden="true"></i>
+              <a href="mailto:shaurys4@uci.edu">shaurys4@uci.edu</a>
+            </li>
+            <li class="mb-2">
+              <i class="fa-brands fa-linkedin me-2" aria-hidden="true"></i>
+              <a href="https://linkedin.com/in/shaurya-singh-2a71b81b7" target="_blank" rel="noopener">
+                LinkedIn profile
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa-solid fa-graduation-cap me-2" aria-hidden="true"></i>
+              UC Irvine, Computer Science (AI), class of 2026
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <form class="card-soft p-4" action="#" method="get" aria-labelledby="form-title">
+          <h2 id="form-title" class="h4 fw-800 mb-3">Message form</h2>
+
+          <fieldset class="mb-3">
+            <legend class="fw-600">My info</legend>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" type="email" class="form-control" required>
+            </div>
+          </fieldset>
+
+          <div class="mb-3">
+            <label for="topic" class="form-label">Topic</label>
+            <select id="topic" name="topic" class="form-select">
+              <option value="internship">Internship or new grad role</option>
+              <option value="project">Project collaboration</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <p class="small text-muted mt-2 mb-0">This demo form uses GET and does not send to a backend.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer border-top">
+    <div class="container py-4 d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">© <span id="year">2026</span> Shaurya Singh</p>
+      <p class="mb-0"><a href="index.html">Home</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
