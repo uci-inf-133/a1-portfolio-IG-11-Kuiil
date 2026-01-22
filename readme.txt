@@ -1,54 +1,90 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Shaurya Singh, shaurys4@uci.edu--
 
-A reminder on academic integrity, as described in the syllabus.
+Academic Integrity Statement
 
-In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
+I followed the course academic integrity policy for this assignment. All HTML, CSS, and content in this project was written and customized by me. I used online documentation for reference, including W3Schools, to clarify HTML and CSS syntax and best practices. I also used ChatGPT to help debug validation and accessibility issues, clarify HTML semantics, and reason about WCAG-related warnings. I did not copy an existing portfolio or submit someone else’s work as my own.
 
-While learning from examples is encouraged, attempting to pass an existing project or example from the web as your own is not allowed. If you ever have a question about what is or is not appropriate, feel free to ask the course staff!
+----------------------------------------------------------------
 
-Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does *not* permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
+1. How many assignment points do you believe you completed?
 
-1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+----------------------------------------------------------------
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
-(a) Basic features
+(a) Basic HTML features:
+- Multiple HTML pages (index, experience, projects, contact) with navigation between them
+- Semantic HTML elements including header, nav, main, section, article, and footer
+- Proper heading hierarchy and structured text content
+- Images with descriptive alt text
+- External links (email and LinkedIn)
+- A contact form with labeled inputs
 
+(b) CSS features:
+- Custom color palette defined using CSS variables
+- Custom typography using Google Fonts with system fallbacks
+- Custom layout, spacing, and card styling
+- Hover and focus states for interactivity and accessibility
+- Responsive layout using Bootstrap grid and media queries
+- Theming of Bootstrap components to match a consistent visual style
 
+(c) Advanced features:
+- An accessible data table with a caption, row headers, column headers, and explicit header-to-cell relationships
+- An accessible contact form using fieldset, legend, labels, and required inputs
+- Responsive navigation and layout behavior across different screen sizes
 
-(b) CSS features
+----------------------------------------------------------------
 
+3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern?
 
+Yes. All accessibility **Known Problems** reported by AChecker were resolved.
 
-(c) Advanced features
+The remaining **Potential Problems** reported by the checker were reviewed manually. These warnings indicate cases where automated tools cannot determine intent (for example, whether text alternatives are meaningful or whether layout decisions are appropriate in all contexts). After review, these potential issues did not represent actual accessibility barriers.
 
+CSS validation produced one warning:
+- “Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif is a vendor extension”
 
+This warning was intentionally ignored because vendor-specific font fallbacks (such as -apple-system) are a widely accepted best practice for consistent cross-platform typography and do not negatively impact accessibility or correctness.
 
-
-3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
-
+----------------------------------------------------------------
 
 4. How long, in hours, did it take you to complete this assignment?
 
+Approximately 10–12 hours.
 
+----------------------------------------------------------------
 
-5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+5. What online resources did you consult when completing this assignment?
 
+- W3C HTML Validator: https://validator.w3.org/
+- W3C CSS Validator: https://jigsaw.w3.org/css-validator/
+- AChecker Accessibility Checker: https://achecker.ca/
+- Bootstrap 5 Documentation: https://getbootstrap.com/docs/5.3/
+- Font Awesome Documentation: https://fontawesome.com/
+- Google Fonts: https://fonts.google.com/
+- W3Schools HTML & CSS Reference: https://www.w3schools.com/htmlcss/default.asp
 
+I also used ChatGPT as a generative AI assistant to help debug validation and accessibility issues, clarify checker warnings, and reason about HTML structure and accessibility requirements. All suggestions were reviewed and integrated by me.
+
+----------------------------------------------------------------
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
+I did not consult classmates or other individuals for this assignment.
 
+----------------------------------------------------------------
 
 7. Is there anything special we need to know in order to run your code?
 
+No special setup is required.
+
+The site can be opened directly by opening `index.html` in a web browser. All assets use relative paths, and no server or build tools are required.
