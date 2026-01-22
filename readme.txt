@@ -48,7 +48,7 @@ I followed the course academic integrity policy for this assignment. All HTML, C
 
 Yes. All accessibility **Known Problems** reported by AChecker were resolved.
 
-The remaining **Potential Problems** reported by the checker were reviewed manually. These warnings indicate cases where automated tools cannot determine intent (for example, whether text alternatives are meaningful or whether layout decisions are appropriate in all contexts). After review, these potential issues did not represent actual accessibility barriers.
+AChecker reported additional Potential Problems (manual checks). These are informational warnings where the tool cannot confirm context (e.g., image alt text appropriateness or whether scripts affect accessibility). All Errors and Known Problems were addressed.
 
 CSS validation produced one warning:
 - “Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif is a vendor extension”
