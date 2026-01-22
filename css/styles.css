@@ -126,6 +126,36 @@ table caption {
   border-color: var(--border);
 }
 
+/* Dark themed table to match site */
+.table {
+  background: transparent;
+}
+
+.table thead th {
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border);
+}
+
+.table td,
+.table th {
+  background: transparent;
+  vertical-align: middle;
+}
+
+/* Row separators */
+.table tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* Subtle hover */
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
 /* Make Bootstrap form controls match theme */
 .form-control,
 .form-select {
