@@ -185,7 +185,8 @@ legend {
 /* Responsive tweaks */
 @media (max-width: 576px) {
   .profile-img {
-    max-width: 160px;
+    width: 160px;
+    height: 160px;
   }
 
   .nav-link {
